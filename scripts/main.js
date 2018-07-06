@@ -1,1 +1,1 @@
-document.getElementById("headline").innerHTML = "This was edited by JS"
+window.alert("Alert! You have fallen victim to this unfinished site :)");
