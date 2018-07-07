@@ -24,8 +24,6 @@ switch(Datum){
     case 6:
         var Tag = "Today is saturday. Right now, I am probably sitting before my PC playing games or watching youtube.";
         break;
-
-
 }
 
 document.write(Tag); //Displays costum message for the current day
