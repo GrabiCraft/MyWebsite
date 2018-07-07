@@ -25,6 +25,8 @@ switch(Datum){
     case 6:
         var Tag = "Today is saturday. Right now, I am probably sitting before my PC playing games or watching youtube.";
         break;
+    default:
+        var Tag = "Looks like humanity has come to an end and weeks have more/less than 7 days."
 }
 
 document.write(Tag);
