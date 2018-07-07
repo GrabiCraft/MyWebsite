@@ -1,6 +1,6 @@
 var Datum = new Date().getDay()
 
-window.alert("Alert! You have fallen victim to this unfinished site :)"); //WIll be removed once site is finished
+window.alert("Alert! You have fallen victim to this unfinished site :)");
 
 switch(Datum){
     case 0:
@@ -26,4 +26,4 @@ switch(Datum){
         break;
 }
 
-document.write(Tag); //Displays costum message for the current day
+document.write(Tag);
