@@ -1,3 +1,4 @@
+
 var Datum = new Date().getDay()
 
 window.alert("Alert! You have fallen victim to this unfinished site :)");
