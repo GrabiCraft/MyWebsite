@@ -1,7 +1,8 @@
+//First project by Matthias Grabner. Check out my Github at https://github.com/MatthiasGrabner5
 
-var Datum = new Date().getDay()
+var Datum = new Date().getDay() //Creates Date variable
 
-window.alert("Alert! You have fallen victim to this unfinished site :)");
+window.alert("Alert! You have fallen victim to this unfinished site :)"); //WIll be removed once site is finished
 
 switch(Datum){
     case 0:
@@ -28,5 +29,6 @@ switch(Datum){
     default:
         var Tag = "Looks like humanity has come to an end and weeks have more/less than 7 days."
 }
+document.write(Tag); // Displays curent day of week
 
-document.write(Tag);
+//TODO: Make like counter and add like button
