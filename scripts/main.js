@@ -2,7 +2,7 @@
 
 var Datum = new Date().getDay() //Creates Date variable
 
-window.alert("Alert! You have fallen victim to this unfinished site :)"); //WIll be removed once site is finished
+//window.alert("Alert! You have fallen victim to this unfinished site :)"); //WIll be removed once site is finished
 
 switch(Datum){
     case 0:
