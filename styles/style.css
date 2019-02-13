@@ -41,14 +41,14 @@ ul li ul li {
 
 header li {
     float: left;
-    display: inline;
+    list-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 /*fix*/
 ul li:hover ul li {
-    display: none;
+    display: inline-block;
 }
 
 header #menu {
