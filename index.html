@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 
 <html>
+
+  <!-- head of index page-->
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
-    <link href='styles/style.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width">
+
+    <!-- add description & keywords & author -->
+    <meta name="description" content="Example Description">
+    <meta name="keywords" content="Example Keywords">
+    <meta name="author" content="Example Author" >
+
+    <!-- importing the css style sheet -->
+    <link href='./styles/style.css' rel='stylesheet'>
+
+    <!-- title of the page (tab)-->
+    <title>Example Title</title>
   </head>
   
+  <!-- body of index -->
   <body>
     
+    <!-- header -->
     <header>
-
-      <h1>First/Last Name</h1>
-
-      <ul>
-        <li><a>Home</a></li>
-        <li><a>Projects</a></li>
-        <li><a>School</a>
-          <ul>
-            <li><a>MYP 3</a></li>
-            <li><a>MYP 4</a></li>
-            <li><a>MYP 5</a></li>
-            <li><a>DP 1</a></li>
-            <li><a>DP 2</a></li>
-          </ul></li>
-        <li><a>About</a></li>
-      </ul>
+      <div class="container">
+        <div id="menu">
+          <!-- Heading -->
+          <h1>First/Last Name</h1>
+          
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./school.html">School</a>
+                  <ul>
+                    <li><a href="https://isc.ac.at">The School</a></li>
+                    <li><a href="./myp3.html">MYP 3</a></li>
+                    <li><a href="./myp4.html">MYP 4</a></li>
+                    <li><a href="./myp5.html">MYP 5</a></li>
+                    <li><a href="./dp1.html">DP 1</a></li>
+                    <li><a href="./dp2.html">DP 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+          
+        </div>
+      </div>
     </header>
-    
-    
-    <script src = "scripts/main.js"></script>
 
     
 
-    <p>Hi, I am Matthias and I am currently 15 years old. This are my first real steps in html and javascript. Although there is no real JS content here yet,
-        I will add it as soon as I learn how to do it correctly. The Window alert and my "what am I doing" message was already programmed in JS.
-        Visit my Github repository
-        <a href="https://github.com/GrabiCraft/MyWebsite">here</a>
-    </p>
   </body>
 </html>
