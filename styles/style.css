@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #3f3f3f;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -20,7 +20,7 @@ header {
     color: #ffffff;
     padding-top: 0px;
     min-height: 40px;
-    border-bottom: #e84c3d 5px solid;
+    border-bottom: #ea0d38 5px solid;
 }
 
 header nav {
